@@ -53,8 +53,8 @@ Below are the methods for installing this plugin automatically using command lin
 
 The plugin can be installed via the Cordova command line interface:
 
-    1) Navigate to the root folder for your phonegap project.
-    2) Run the command.
+1. Navigate to the root folder for your phonegap project.
+2. Run the command.
 
 cordova plugin add https://github.com/Dinkh/cordova.plugins.show-wifi.git
 
@@ -64,16 +64,16 @@ cordova plugin add https://github.com/Dinkh/cordova.plugins.show-wifi.git
 
 The plugin instance variable.
 
---code
-    var showWifiSettings;
+```javascript
+var showWifiSettings;
 
-    document.addEventListener("deviceready", function(){
-        wifiSettings = window.plugins.wifiSettings;
-        wifiSettings.show();
-    });
---/code
+document.addEventListener("deviceready", function(){
+    wifiSettings = window.plugins.wifiSettings;
+    wifiSettings.show();
+});
+```
 
-Note --italic
+*note*
 
 Android: If you have not already done so, you'll need to set up a Google API project, to generate your senderID. Follow these steps to do so. This is described more fully in the Testing section below. In this example, be sure and substitute your own senderID. Get your senderID by signing into to your google dashboard. The senderID is found at Overview->Dashboard->Project Number.
 
