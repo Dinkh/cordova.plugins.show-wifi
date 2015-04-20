@@ -59,7 +59,7 @@ The plugin can be installed via the Cordova command line interface:
 
 ###show
 
-The plugin instance variable.
+Show the native wifi settings menu.
 
 ```javascript
 var WifiSettings;
