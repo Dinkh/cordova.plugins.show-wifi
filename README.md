@@ -57,7 +57,7 @@ The plugin can be installed via the Cordova command line interface:
 
 ##Plugin API
 
-###show Wifi settings
+###show
 
 The plugin instance variable.
 
