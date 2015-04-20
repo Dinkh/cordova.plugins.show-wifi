@@ -5,6 +5,8 @@
     version="1.0.0">
 
     <name>WifiSettings</name>
+    <author>Torsten Dinkheller</author>
+
     <description>Open the native Wifi Settings</description>
     <license>Apache</license>
 
