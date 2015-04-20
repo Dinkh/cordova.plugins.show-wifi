@@ -58,29 +58,21 @@ The plugin can be installed via the Cordova command line interface:
 
 ##Plugin API
 
-###showWifiSettings
+###show Wifi settings
 
 The plugin instance variable.
 
 ```javascript
-var showWifiSettings;
+var WifiSettings;
 
 document.addEventListener("deviceready", function(){
-    wifiSettings = window.plugins.wifiSettings;
-    wifiSettings.show();
+    WifiSettings = window.plugins.WifiSettings;
+    WifiSettings.show();
 });
 ```
 
-*note*
-
-Android: If you have not already done so, you'll need to set up a Google API project, to generate your senderID. Follow these steps to do so. This is described more fully in the Testing section below. In this example, be sure and substitute your own senderID. Get your senderID by signing into to your google dashboard. The senderID is found at Overview->Dashboard->Project Number.
-
 ##Acknowledgments
 
-###Android
-
-The base part was taken from P.Ranjan at
-http://stackoverflow.com/questions/14321376/open-an-activity-from-a-cordovaplugin
-
 ###iOS
+
 The base part was taken from
