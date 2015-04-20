@@ -1,4 +1,4 @@
-# cordova.plugins.show-wifi
+# Cordova Plugin Show Wifi
 Show Wifi Settings Plugin for iOS and Android
 
 Cordova Show WifiSettings Plugin for Android and iOS
@@ -14,7 +14,9 @@ The iOS version has to be done.
 
 LICENSE
 Automatic Installation
+
 Plugin API
+
 Acknowledgments
 
 ##LICENSE
@@ -51,8 +53,8 @@ Below are the methods for installing this plugin automatically using command lin
 
 The plugin can be installed via the Cordova command line interface:
 
-1) Navigate to the root folder for your phonegap project.
-2) Run the command.
+    1) Navigate to the root folder for your phonegap project.
+    2) Run the command.
 
 cordova plugin add https://github.com/Dinkh/cordova.plugins.show-wifi.git
 
@@ -63,12 +65,12 @@ cordova plugin add https://github.com/Dinkh/cordova.plugins.show-wifi.git
 The plugin instance variable.
 
 --code
-var showWifiSettings;
+    var showWifiSettings;
 
-document.addEventListener("deviceready", function(){
-    wifiSettings = window.plugins.wifiSettings;
-    wifiSettings.show();
-});
+    document.addEventListener("deviceready", function(){
+        wifiSettings = window.plugins.wifiSettings;
+        wifiSettings.show();
+    });
 --/code
 
 Note --italic
