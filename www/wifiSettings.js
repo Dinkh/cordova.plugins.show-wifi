@@ -2,11 +2,18 @@ var exec = require('cordova/exec'),
 	Plugin = function () {};
 
 Plugin.prototype.show = function () {
-	var onSuccess = function() {},
-		onError = function() {},
-		parameters = [];
+	var parameters = [];
 
-	return exec(onSuccess, onError, 'WifiSettings', 'show', parameters);
+	return exec(null, null, 'WifiSettings', 'show', parameters);
 };
 
-module.exports = new Plugin();
+if(!window.plugins) {
+	window.plugins = {};
+}
+if (!window.plugins.WifiSettings) {
+	window.plugins.WifiSettings = new Plugin();
+}
+
+if (typeof module != 'undefined' && module.exports) {
+	module.exports = Plugin;
+}

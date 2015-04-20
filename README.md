@@ -12,12 +12,10 @@ The iOS version has to be done.
 
 ##Contents
 
-LICENSE
-Automatic Installation
-
-Plugin API
-
-Acknowledgments
+- LICENSE
+- Automatic Installation
+- Plugin API
+- Acknowledgments
 
 ##LICENSE
 
@@ -56,7 +54,7 @@ The plugin can be installed via the Cordova command line interface:
 1. Navigate to the root folder for your phonegap project.
 2. Run the command.
 
-cordova plugin add https://github.com/Dinkh/cordova.plugins.show-wifi.git
+    cordova plugin add https://github.com/Dinkh/cordova.plugins.show-wifi.git
 
 ##Plugin API
 
